@@ -1,11 +1,11 @@
-## My Project
+## Query and Write into Amazon DocumentDB using Sagemaker
 
-TODO: Fill this README out!
+In our accompanying blog post, we use Amazon SageMaker to analyze data stored in Amazon DocumentDB. After showing how to write queries to conduct a descriptive analysis, we build a simple machine learning model to
+make predictions, then we write the prediction results back into the database.
 
-Be sure to:
+![Connecting to DocumentDB from Sagemaker using Secrets Manager](architecture.png "Connecting to DocumentDB from Sagemaker using Secrets Manager.")
 
-* Change the title in this README
-* Edit your repository description on GitHub
+Use the CloudFormation template to create the stack shown above, then load and run the Jupyter notebook into your Sagemaker instance.
 
 ## Security
 
