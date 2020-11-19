@@ -3,9 +3,9 @@
 In our accompanying blog post, we use Amazon SageMaker to analyze data stored in Amazon DocumentDB. After showing how to write queries to conduct a descriptive analysis, we build a simple machine learning model to
 make predictions, then we write the prediction results back into the database.
 
-![Connecting to DocumentDB from Sagemaker using Secrets Manager](architecture.png "Connecting to DocumentDB from Sagemaker using Secrets Manager.")
+Use the [CloudFormation template](https://github.com/aws-samples/documentdb-sagemaker-example/blob/main/cloudformation.yaml) to create the stack shown below, then load and run the [Jupyter notebook](https://github.com/aws-samples/documentdb-sagemaker-example/blob/main/script.ipynb) in your Sagemaker instance.
 
-Use the CloudFormation template to create the stack shown above, then load and run the Jupyter notebook into your Sagemaker instance.
+![Connecting to DocumentDB from Sagemaker using Secrets Manager](architecture.png "Connecting to DocumentDB from Sagemaker using Secrets Manager.")
 
 ## Security
 
