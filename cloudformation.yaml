@@ -326,6 +326,7 @@ Resources:
                 source /home/ec2-user/anaconda3/bin/deactivate
                 cd /home/ec2-user/SageMaker
                 wget https://s3.amazonaws.com/rds-downloads/rds-combined-ca-bundle.pem
+                wget https://github.com/aws-samples/documentdb-sagemaker-example/blob/main/script.ipynb
                 EOF
 
 
